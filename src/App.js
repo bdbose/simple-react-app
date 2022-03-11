@@ -22,6 +22,7 @@ function App() {
   };
   useEffect(() => {
     getData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const [userData, setUserData] = useState({});
   const [userId, setUserId] = useState(null);
